@@ -8,29 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="820b920d-4a01-4aef-893a-6f6d3481dfed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ApplyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ApplyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/admin/ApplyManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/admin/ApplyManage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/patient/OrderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/patient/OrderList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/applyManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/applyManage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/office.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/office.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/myInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/myInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/myWork.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/myWork.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/orderList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/ApplyDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ApplyDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/admin/ApplyManage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/admin/ApplyManage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/patient/OrderList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/patient/OrderList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital/WEB-INF/classes/dao/ApplyDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/WEB-INF/classes/dao/ApplyDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital/WEB-INF/classes/servlet/admin/ApplyManage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/WEB-INF/classes/servlet/admin/ApplyManage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital/WEB-INF/classes/servlet/patient/OrderList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/WEB-INF/classes/servlet/patient/OrderList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital/admin/applyManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/admin/applyManage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital/admin/office.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/admin/office.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital/doctor/myInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/doctor/myInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital/doctor/myWork.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/doctor/myWork.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/orderList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/doctorManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/doctorManage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/doctor/include/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/doctor/include/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hospital/admin/doctorManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/admin/doctorManage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hospital/doctor/include/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/doctor/include/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hospital/mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/注意事项.doc" beforeDir="false" afterPath="$PROJECT_DIR$/注意事项.doc" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +68,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="servlet.doctor" />
       <recent name="servlet.admin" />
+      <recent name="servlet.doctor" />
       <recent name="servlet" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -295,7 +279,7 @@
       <workItem from="1583303333375" duration="1636000" />
       <workItem from="1583314583214" duration="242000" />
       <workItem from="1583629306923" duration="2050000" />
-      <workItem from="1583638705721" duration="17614000" />
+      <workItem from="1583638705721" duration="21772000" />
     </task>
     <servers />
   </component>
@@ -318,45 +302,15 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlet/ModifyBaseInfo.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="8" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/servlet/admin/OfficeManage.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlet/admin/DeleteManage.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlet/admin/DeleteManage.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dao/RecodeDao.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlet/patient/Register.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlet/patient/Order.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlet/admin/ApplyManage.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dao/ApplyDao.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/main/java/servlet/admin/OfficeManage.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

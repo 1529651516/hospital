@@ -267,15 +267,20 @@
                                 <label for="offices" class="col-sm-2 control-label">科室</label>
                                 <div class="col-sm-10" >
                                     <select class="form-control" id="offices" name="office1">
+                                        <c:forEach var="office" items="${offices}">
+                                            <option value="${office.officename}">${office.officename}</option>
+                                        </c:forEach>
                                     </select>
                                     <script>
-                                        $.get("<%=request.getContextPath()%>/admin/office?action=query",function(data){
-                                            var options="";
-                                            for(var i=0;i<data.length;i++){
-                                                options+="<option>"+data[i].officename+"</option>";
-                                            }
-                                            ($(options)).appendTo($("#offices"));
-                                        });
+                                        <%--$.get("<%=request.getContextPath()%>/admin/officeList?action=query",function(data){--%>
+                                        <%--    debugger;--%>
+                                        <%--    var options="";--%>
+                                        <%--    debugger;--%>
+                                        <%--    for(var i=0;i<data.length;i++){--%>
+                                        <%--        options+="<option>"+data[i].officename+"</option>";--%>
+                                        <%--    }--%>
+                                        <%--    ($(options)).appendTo($("#offices"));--%>
+                                        <%--});--%>
                                     </script>
                                 </div>
                             </div>

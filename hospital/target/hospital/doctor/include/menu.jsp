@@ -10,7 +10,7 @@
             <br />
             <br />
             <li><a class="list-group-item1" href="<%=request.getContextPath()%>/doctor/myWork"><font color="#fff">排班信息</font></a></li>
-            <li><a class="list-group-item1" href="<%=request.getContextPath()%>/doctor/myApply"><font color="#fff"></font></a></li>
+            <li><a class="list-group-item1" href="<%=request.getContextPath()%>/doctor/myApply"><font color="#fff">我的排班</font></a></li>
             <li><a class="list-group-item1" href="<%=request.getContextPath()%>/doctor/patientList"><font color="#fff">患者列表</font></a></li>
             <li><a class="list-group-item1" href="<%=request.getContextPath()%>/doctor/myInfo"><font color="#fff">我的信息</font></a></li>
             <!-- <li><a class="list-group-item1" href="/ssm_pro/orderIndex"><font color="#fff">快速预约</font></a></li> -->

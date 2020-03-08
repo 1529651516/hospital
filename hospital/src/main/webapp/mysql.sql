@@ -150,7 +150,7 @@ create table if not exists room (id int primary key auto_increment,
                         roomname char(16),
                         doctornum int,
                         foreign key(officename) references office(officename));
--- 触发器在添加医生后，自动添加默认的排班
+-- 触发器在后，自动添加默认的排班
 drop trigger if exists scheduling;
 delimiter $$
 create trigger scheduling after insert on doctor for each row
