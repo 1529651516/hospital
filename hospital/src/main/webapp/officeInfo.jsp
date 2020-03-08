@@ -13,7 +13,7 @@
     <div id="page-inner">
 
         <div class="search">
-            <h1>科室详情</h1>
+            <h1></h1>
             <form wid="doctor" action="searchDoctor" method="post">
                 <input  value="${doctor}" name="doctor"  autocomplete="off" class="" placeholder="在此科室下查找医生">
                 <input id="start" hidden value="1" name="start">

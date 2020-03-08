@@ -59,7 +59,7 @@
                             <a href="officeDetail?office=${item.officename} ">
                             <p>${item.doctornum}位医生</p>
                             </a>
-                            <a href="officeDetail?office=${item.officename} ">
+                            <a href="officeDoctorDetail?office=${item.officename} ">
                             <p  class="office-click">详细信息</p>
                             </a>
                         </div>

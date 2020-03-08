@@ -49,14 +49,13 @@
                 <td>医生姓名</td>
                 <td>医生职称</td>
                 <td>医生性别</td>
-                <td>医生出诊费</td>
-                <td>操作</td>
+                <td>医生出诊费(元)</td>
             </tr>
             </thead>
             <c:forEach var="item" items="${list1}" varStatus="statu">
                 <tr>
                     <td>${statu.index+1}</td>
-                    <td>${item.roomname}</td>
+                    <td>${item.room}</td>
                     <td>${item.dname}</td>
                     <td>${item.career}</td>
                     <td>${item.gender}</td>
@@ -64,7 +63,6 @@
                 </tr>
             </c:forEach>
         </table>
-        <div class="alert-danger">${message}</div>
 
     </div>
 </div>

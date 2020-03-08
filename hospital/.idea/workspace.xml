@@ -7,11 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="820b920d-4a01-4aef-893a-6f6d3481dfed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/admin/OfficeDoctorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/servlet/admin/OfficeDoctorDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hospital/WEB-INF/classes/servlet/admin/OfficeDoctorDetail.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DBUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/DBUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/office.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/office.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/officeDoctorDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/officeDoctorDetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/officeInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/officeInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hospital/admin/office.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/admin/office.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hospital/admin/officeDoctorDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/admin/officeDoctorDetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hospital/officeInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital/officeInfo.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,6 +184,7 @@
       </method>
     </configuration>
     <configuration name="hospital" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.46" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -274,7 +280,7 @@
       <workItem from="1583303333375" duration="1636000" />
       <workItem from="1583314583214" duration="242000" />
       <workItem from="1583629306923" duration="2050000" />
-      <workItem from="1583638705721" duration="2577000" />
+      <workItem from="1583638705721" duration="4773000" />
     </task>
     <servers />
   </component>
@@ -313,9 +319,9 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlet/admin/OfficeDetail.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/src/main/java/servlet/admin/OfficeDoctorDetail.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
