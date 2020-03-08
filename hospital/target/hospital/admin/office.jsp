@@ -16,7 +16,7 @@
             <h1>科室列表</h1>
             <div class="alert-danger">${message}</div>
                 <button type="button" style="color: #eeeeee"  class="btn btn-primary btn-xs"  data-toggle="modal" data-target="#myModal">
-
+                添加科室
                 </button>
             <form id="office" action="office" method="post" style="margin-top: 10px">
                 <input  value="${office}" name="office"  autocomplete="off" class="" placeholder="科室名称">

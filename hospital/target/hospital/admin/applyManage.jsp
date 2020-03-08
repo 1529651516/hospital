@@ -59,7 +59,7 @@
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             <h4 class="modal-title" id="myModalLabel">医生申请管理</h4>
                         </div>
-                        <form action='applyManage' method='post' autocomplete="off">
+                        <form action='applyManage' method='post' id="form" autocomplete="off">
                             <input id="aid" hidden  name="aid">
                             <input  hidden id="action" name="action" value="cancel">
                             <div class="modal-body">
@@ -93,7 +93,7 @@
                     });
                     $('#doalert').click(function () {
                         if($("input[type=radio]:checked").length==1){
-                            $("form").submit();
+                            $("#form").submit();
                         }else {$('#myModal').modal('hide')}
                     })
                 })

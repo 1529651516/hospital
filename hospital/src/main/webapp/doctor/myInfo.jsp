@@ -19,7 +19,7 @@
             <div class="ysjs ">
                 <div class="title">
                     <div class="t">
-                        <span><a href="showWeek?wid=${doctor.did}">${doctor.dname}</a></span>
+                        <span class="gender">${doctor.dname}</span>
                         <span class="gender">${doctor.gender}</span>
                         <span class="career">${doctor.career}</span>
                         <span class="career">${doctor.age}岁</span>

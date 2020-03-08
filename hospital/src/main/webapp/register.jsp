@@ -164,6 +164,16 @@
                     id="userName" class="form-username form-control" required />
             </div>
             <div class="form-group col-xs-12">
+                <label class="sr-only" for="idcard">idcard</label>身份证(*):<input
+                    style="font-weight: bold" type="text" name="idcard"
+                    id="idcard" class="form-username form-control" required />
+            </div>
+            <div class="form-group col-xs-12">
+                <label class="sr-only" for="phone">phone</label>手机号(*):<input
+                    style="font-weight: bold" type="text" name="phone"
+                    id="phone" class="form-username form-control" required />
+            </div>
+            <div class="form-group col-xs-12">
                 <label class="sr-only" >password</label>密码(*):<input
                     style="font-weight: bold" type="password" name="password"
                     class="form-password form-control" id="pwd1" required />

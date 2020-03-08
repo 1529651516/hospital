@@ -1,8 +1,11 @@
 package dao;
 
 import bean.Apply;
+import bean.Doctor;
 import util.DBUtil;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -30,6 +33,29 @@ public class ApplyDao {
     public ArrayList<HashMap<String, String>> query(String where, Object[] o){
         String sql="select request, workday.worktime,ampm, aid,dname,reason,apply.state,applytime from workday,apply "+where;
        return DBUtil.getHashmap(sql,o);
+    }
+
+    public List<Apply> queryBywhere(String where, Object[] o){
+        List<Apply> applies=new ArrayList<>();
+        String sql="select * from apply "+where;
+        ResultSet rs=DBUtil.executeQuery(sql,o);
+        try {
+            while (rs.next()){
+                applies.add(new Apply(rs.getString(1),
+                        rs.getString(2),
+                        rs.getString(3),
+                        rs.getString(4),
+                        rs.getString(5),
+                        rs.getString(6),
+                        rs.getString(7),
+                        rs.getString(8)));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DBUtil.closeAll();
+        }
+        return applies;
     }
 
     public boolean update(String set, Object[] o){

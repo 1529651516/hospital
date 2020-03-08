@@ -19,7 +19,7 @@
 
 <div style="margin-top: 100px;margin-left: 300px">
     <div id="page-inner">
-        <c:if test="${requestScope.list != null}">
+        <c:if test="${list != null}">
             <div class="container1">
                 <style>
                     .yyjj{
@@ -80,9 +80,9 @@
                     </script>
                     ${sessionScope.remove("message")}
                 </c:if>
-                <c:forEach var="item" items="${requestScope.list}">
+                <c:forEach var="item" items="${list}">
                     <div class="box">
-                        <div class="pic"><img src="${item.picpath}"></div>
+                       <div class="pic"><img src="${item.picpath}"></div>
                         <table style="width: 28%">
                             <tr><td>医生：</td><td><a href="showWeek?did=${item.did}">${item.dname}</a></td></tr>
                             <tr><td>科室：</td><td><a href="searchOffice?office=${item.office}">${item.office}</a></td></tr>
