@@ -7,7 +7,7 @@ import java.util.HashMap;
 public class DBUtil {
     private static  String url="jdbc:mysql://localhost:3306/hospital?characterEncoding=utf8&serverTimezone=UTC";
     private static final String user="root";
-    private static final String password="123456";
+    private static final String password="";
     private static Connection conn=null;
     private static PreparedStatement ps=null;
     private static ResultSet rs=null;
@@ -22,7 +22,7 @@ public class DBUtil {
     private static void init(){
         String sql="create database if not exists hospital";
         executeUpdate(sql,null);
-        url="jdbc:mysql://192.168.11.132:3306/hospital?characterEncoding=utf8&serverTimezone=UTC";
+        url="jdbc:mysql://localhost:3306/hospital?characterEncoding=utf8&serverTimezone=UTC";
         /*sql="create table if not exists admin (account char(16) primary key ,password char(16) ,name char(16))";
         try {
            *//* ps=createConn().prepareStatement(sql);
